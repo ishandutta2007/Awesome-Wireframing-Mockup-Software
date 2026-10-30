@@ -1,197 +1,99 @@
-# Awesome-Wireframing-Mockup-Software
+# Awesome Wireframing & Mockup Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top Wireframing & Mockup Software Ecosystem
+> A curated list of top **wireframing tools**, **UI mockup software**, **prototyping platforms**, and **open-source design systems**.
 
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Low-Fidelity Wireframing, Collaborative Design & Self-Hosted UI Prototyping*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Wireframing & Mockup Software**. These tools enable product managers, designers, and developers to sketch UI layouts, map user flows, and prototype interfaces—turning abstract requirements into tangible screens before committing to high-fidelity design or code.
-
-
-
-**Examples** include Balsamiq for Confluence, Figma, Miro, Lucidchart, Sketch, Moqups, Axure RP, Whimsical, Marvel, and InVision (the category leaders).
-
-
-
-**Open-source emphasis**: Wireframing & Mockup Software is a domain where open-source tooling is **genuinely viable but bifurcated by workflow philosophy**. **Penpot** stands out as the most complete open-source Figma alternative—self-hostable, SVG-native, with native CSS Grid/Flexbox handoff and real-time collaboration, making it the default recommendation for teams wanting a full design platform . For **text-first wireframing**, **wiremd** lets you write mockups in Markdown and export to Figma-native JSON, HTML, or React, with a Balsamiq-style sketch theme . **Wireloom** (Stardock, MIT) renders indentation-based wireframe blocks as inline SVG directly in Markdown, designed explicitly for AI agents sketching UIs in chat and PRs . **Telva** is an embeddable React design canvas with live React components as canvas shapes, positioning itself as a self-hostable, MIT-licensed Figma alternative . The critical caveat: **Pencil Project**, long the go-to desktop open-source wireframing tool, is marked **Discontinued** .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Balsamiq for Confluence](https://balsamiq.com/)**  
-
-  Low-fidelity wireframing tool integrated into Atlassian Confluence; known for its intentional "sketchy" aesthetic that keeps stakeholders focused on structure rather than visual polish.
-
-
-
-- **[Figma](https://www.figma.com/)**  
-
-  Industry-standard collaborative design platform with wireframing capabilities, component libraries, and developer handoff; proprietary and per-seat priced, but dominates the design tool market .
-
-
-
-- **[Miro](https://miro.com/)**  
-
-  Infinite-canvas whiteboard with a dedicated Wireframe Library; best for teams that wireframe during live brainstorming sessions, though it lacks the precision and layer management of dedicated design tools .
-
-
-
-- **[Lucidchart](https://www.lucidchart.com/)**  
-
-  Diagramming and visual collaboration platform with wireframing shapes and templates for UI flows and architecture.
-
-
-
-- **[Sketch](https://www.sketch.com/)**  
-
-  Mac-only design tool with wireframing and prototyping capabilities; historically popular before Figma's cross-platform dominance.
-
-
-
-- **[Moqups](https://moqups.com/)**  
-
-  All-in-one wireframing, mockup, and diagramming suite with a stencil library that rivals Balsamiq's ease of use; free plan is limited to 2 projects and 400 objects .
-
-
-
-- **[Axure RP](https://www.axure.com/)**  
-
-  High-fidelity prototyping tool with interactive logic and dynamic content; heavier than wireframing tools but suited for complex interactive specifications.
-
-
-
-- **[Whimsical](https://whimsical.com/)**  
-
-  Collaborative workspace for flowcharts, wireframes, and sticky notes; focused on "speed of thought" rapid wireframing with pre-built components .
-
-
-
-- **[Marvel](https://marvelapp.com/)**  
-
-  Prototyping and design platform for turning sketches and wireframes into interactive mobile and web prototypes.
-
-
-
-- **[InVision](https://www.invisionapp.com/)**  
-
-  Prototyping and collaboration platform (historically popular for design handoff); **caution**: InVision announced it is shutting down at the end of 2024, so verify current status before adopting.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Full Design Platforms (Figma/Balsamiq Alternatives)
-
-
-
-- **[Penpot](https://github.com/penpot/penpot)**  
-
-  The most complete open-source design platform (MPL-2.0) and the default recommendation for teams seeking a self-hostable Figma alternative . Features: **SVG-native architecture** (designs are real SVG, not proprietary vectors), native **CSS Grid and Flexbox** layout (not a proprietary Auto Layout wrapper), real-time collaboration, reusable components, design tokens, plugins, and a self-hosted option with no tracking . The Inspect tab produces near-production-ready HTML/CSS instantly, eliminating the Figma-to-code translation layer that often misrepresents spacing and positioning . **Best for teams wanting a full design system tool without per-seat pricing**—smaller plugin ecosystem than Figma, and lacks the intentional "sketchy" aesthetic of Balsamiq .
-
-
-
-- **[Telva](https://github.com/vmaspad/telva)**  
-
-  Production-grade, **embeddable React design canvas** (MIT) positioned as a self-hostable Figma alternative . The killer feature: **live React components as first-class canvas shapes**—not iframes, but your actual component tree rendered on an infinite canvas, responding to input and fetching data . Features rectangle/ellipse/triangle/arrow/text/sticky/image/video shapes, infinite canvas with pan/zoom, layers panel, multi-page support, undo/redo, snap-to-grid, PNG/SVG export, dark/light theming, and **real-time multiplayer via Liveblocks or custom backend** . **Best for developers wanting to embed a design canvas inside their own product**—not a standalone desktop app, but a component you drop into a React application.
-
-
-
-### Text-First & Markdown Wireframing
-
-
-
-- **[wiremd](https://github.com/akonan/wiremd)**  
-
-  Open-source **text-first UI design tool** for developers who think in code (MIT) . Write wireframes as Markdown, then export to **Figma-native designs via a plugin** (fully editable frames and components with auto-layout), HTML with Tailwind, JSON AST, or React . Includes visual themes: **Sketch** (Balsamiq-style hand-drawn look), Clean, Wireframe (traditional grayscale), and Minimal . Also ships an **Obsidian plugin** for live previews inside notes . **Best for developers and technical writers who prefer typing over dragging**—not a visual editor, but a fast way to generate wireframes from structured text.
-
-
-
-- **[Wireloom](https://github.com/StardockCorp/Wireloom)**  
-
-  Open-source Markdown extension from Stardock (MIT) that renders **UI wireframes as inline SVG** from indentation-based `wireloom` code blocks . Designed explicitly for **AI agents sketching UIs in chat, notes, and PRs**—where ASCII art breaks in proportional fonts and PNG images cost tens of thousands of tokens, a Wireloom block for a full settings dialog is ~300 tokens of source . Syntax: quoted strings are labels, bare words are flags, indentation defines structure. Static by design (no click handlers or state) . **Best for AI-assisted workflows and documentation-embedded wireframes**—not a collaborative design tool.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **mydraft.cc** — Open-source wireframing tool written in TypeScript, React, and Redux (862 GitHub stars, actively updated October 2026) . **A lightweight browser-based wireframing tool**—verify feature depth and maintenance cadence before production adoption.
-
-- **Open Pencil** — Open-source design editor with vector and interface projects, AI-powered generation, `.fig`/`.pen` file support, design-to-code export, and real-time P2P collaboration (MIT) . **A newer entrant**—check maturity and community size.
-
-- **Pencil Project** — **CAUTION: Discontinued** . Long-standing desktop wireframing tool (GPL-2.0) for Mac/Windows/Linux, but no longer actively maintained. Avoid for new projects.
-
-
-
-**Frameworks for building custom systems**: For a **full Figma-like design platform**, Penpot is the most mature open-source choice with SVG-native architecture and CSS-native handoff . For **embedding a design canvas in a React product**, Telva provides a self-hostable component with live React shapes . For **text-first wireframing from Markdown**, wiremd exports to Figma and HTML . For **AI-agent-friendly wireframes in documentation**, Wireloom renders inline SVG from Markdown blocks . No open-source project replicates Balsamiq's specific low-fidelity sketch aesthetic as a dedicated standalone tool—Penpot's design system focus and wiremd's theme option are the closest approximations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Wireframing tools handling design files and user research data should consider access controls for sensitive product plans; self-hosted tools require proper server hardening and backup strategies.
-
-- **Open-source wireframing is strongest for full design platforms and text-first workflows**—Penpot provides a production-ready Figma alternative , Telva offers an embeddable canvas , and wiremd/Wireloom enable Markdown-based wireframing . However, **Pencil Project is discontinued**, and no open-source tool matches Balsamiq's dedicated low-fidelity sketch aesthetic out of the box . Teams requiring Balsamiq-style sketching should evaluate commercial tools or use wiremd's Sketch theme.
-
-- Verify license terms for commercial use; Penpot uses MPL-2.0 , Telva uses MIT , wiremd is MIT , and Wireloom uses MIT .
-
-
+Find the best digital whiteboard, wireframing software, and self-hosted UI mockup solutions to convert product requirements, user flows, and UX architecture into interactive prototypes.
 
 ---
 
+## Sector Overview & Market Dynamics
 
+The global wireframing, diagramming, and UI prototyping software market is estimated at **$1.8B – $2.4B** (part of the broader $15B+ collaborative work management and design software industry) with an expected 14–17% CAGR. The sector is **moderately concentrated at the high-fidelity collaboration layer** (where Figma commands near winner-take-all enterprise dominance alongside Miro and Lucidchart in whiteboarding), yet remains **highly fragmented across low-fidelity wireframing, specialized developer tools, and niche sketch workflows**.
 
-**Made for product managers, UX designers, developers, and teams sketching interfaces before code.**  
+---
 
-Let's make wireframing more open, but with clear eyes about the discontinued tools and aesthetic gaps that remain.
+## Table of Contents
+
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Feature Comparison Matrix](#feature-comparison-matrix)
+- [How to Choose](#how-to-choose)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & License](#disclaimer--license)
+
+---
+
+## SaaS & Hosted Platforms
+
+| Product | Scale (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Key Capabilities & Target Audience |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Figma](https://www.figma.com/)** | ~$12.5B valuation (~$700M+ ARR) | $12/editor/month (Professional plan, billed annually) | Free forever (Starter plan): Up to 3 collaborative Figma and FigJam files, unlimited personal files, unlimited collaborators | Industry standard for collaborative interface design, interactive prototyping, design systems, and developer handoff. |
+| **[Miro](https://miro.com/)** | ~$17.5B valuation (~$500M+ ARR) | $8/member/month (Starter plan, billed annually) | Free forever: 3 editable boards, core integrations, pre-built templates, wireframe shape library, unlimited viewers | Infinite-canvas digital whiteboard with built-in wireframing stencil packs, user story mapping, and ideation tools. |
+| **[Lucidchart](https://www.lucidchart.com/)** | ~$3B valuation (~$300M+ ARR) | $7.95/user/month (Individual plan, billed annually) | Free forever: 3 editable Lucidchart documents, up to 60 objects per document, 100+ standard templates | Cloud diagramming and wireframing suite tailored for technical architecture, UI flowcharts, and system blueprints. |
+| **[Sketch](https://www.sketch.com/)** | ~$500M+ valuation (~$50M+ ARR) | $10/editor/month (Standard plan, billed annually) | 30-day full-featured free trial (all workspace features, no credit card required); no free-forever tier | Native macOS vector design tool focused on pixel-perfect UI drafting, native performance, symbols, and offline workflows. |
+| **[Axure RP](https://www.axure.com/)** | $30M–$40M ARR (Bootstrapped/Private) | $25/user/month (Axure RP Pro, billed annually) | 30-day free trial with full feature access and unlimited prototypes; no free-forever plan | Advanced conditional logic, dynamic mockups, stateful components, and enterprise software functional specifications. |
+| **[Balsamiq](https://balsamiq.com/)** | ~$10M–$15M ARR (Bootstrapped/Profitable) | $9/month (Balsamiq Cloud 2-project tier) or $10/month (Confluence integration) | 30-day unrestricted free trial; also provides Balsamiq Wireframes free web demo without cloud persistence | Low-fidelity wireframing software featuring iconic hand-drawn sketch styles to focus teams on UX layout rather than aesthetic polish. |
+| **[Moqups](https://moqups.com/)** | ~$5M–$10M ARR (Private) | $9/month (Solo plan, billed annually) | Free forever: 1 active project, up to 200 stencils/objects, 5MB cloud storage | Browser-native wireframe, diagram, and interactive prototype app with drag-and-drop stencils and real-time review. |
+| **[Whimsical](https://whimsical.com/)** | ~$5M–$10M ARR (Private) | $10/editor/month (Pro plan, billed annually) | Free forever (Starter plan): Up to 3 collaborative boards or docs, 100 AI actions, unlimited team members | Fast, low-friction workspace combining flowcharts, wireframes, sticky mind maps, and project docs. |
+| **[Marvel](https://marvelapp.com/)** | ~$3M–$5M ARR (Private) | $12/month (Pro plan, billed annually) | Free forever: 1 active project, 1 user, Marvel branding on share links | Lightweight UI prototyping and mockups tool offering simple user testing, screen interaction linking, and handoff. |
+| **[InVision](https://www.invisionapp.com/)** | Historically $1.9B+ peak valuation (Shut down/Archived) | Service discontinued (Sunset announced end of 2024) | Discontinued (Cloud services and platform sunset complete; legacy assets sold) | Pioneered clickable mockup handoffs and prototype collaboration; retained here for historical and transition context. |
+
+---
+
+## Open-Source GitHub Projects
+
+Curated open-source wireframing applications, visual canvas frameworks, and declarative mockup utilities sorted by community GitHub stars:
+
+| Repository & Name | Stars | License | Architecture & Focus |
+| :--- | :--- | :--- | :--- |
+| **[Penpot](https://github.com/penpot/penpot)** | [![GitHub stars](https://img.shields.io/github/stars/penpot/penpot?style=social&color=white)](https://github.com/penpot/penpot/stargazers) | MPL-2.0 | Complete open-source design and wireframing platform built on open web standards (SVG-native, CSS Grid/Flexbox layouts, self-hostable Docker). |
+| **[Pencil Project](https://github.com/evolus/pencil)** | [![GitHub stars](https://img.shields.io/github/stars/evolus/pencil?style=social&color=white)](https://github.com/evolus/pencil/stargazers) | GPL-2.0 | Veteran multi-platform desktop GUI prototyping and diagramming software (*Note: Discontinued/archived, kept for legacy desktop workflows*). |
+| **[Open Pencil](https://github.com/ZSeven-W/openpencil)** | [![GitHub stars](https://img.shields.io/github/stars/ZSeven-W/openpencil?style=social&color=white)](https://github.com/ZSeven-W/openpencil/stargazers) | MIT | Modern open-source design tool supporting Figma `.fig` file import, AI wireframe generation, canvas prototyping, and vector styling. |
+| **[Wireflow](https://github.com/vanila-io/wireflow)** | [![GitHub stars](https://img.shields.io/github/stars/vanila-io/wireflow?style=social&color=white)](https://github.com/vanila-io/wireflow/stargazers) | Apache-2.0 | Open-source user flow and wireframe builder designed for rapid web and mobile planning with built-in UI components. |
+| **[React-Proto](https://github.com/React-Proto/react-proto)** | [![GitHub stars](https://img.shields.io/github/stars/React-Proto/react-proto?style=social&color=white)](https://github.com/React-Proto/react-proto/stargazers) | MIT | Visual UI prototyping tool for React developers allowing component hierarchy visual drafting and React boilerplate export. |
+| **[OverVue](https://github.com/open-source-labs/OverVue)** | [![GitHub stars](https://img.shields.io/github/stars/open-source-labs/OverVue?style=social&color=white)](https://github.com/open-source-labs/OverVue/stargazers) | MIT | Prototyping tool for Vue.js developers to arrange UI components, manage state and Vuex/Pinia trees, and export code. |
+| **[mydraft.cc](https://github.com/mydraft-cc/ui)** | [![GitHub stars](https://img.shields.io/github/stars/mydraft-cc/ui?style=social&color=white)](https://github.com/mydraft-cc/ui/stargazers) | MIT | Lightweight browser-based wireframe editor built with React, Redux, and TypeScript; zero login required with clean vector shapes. |
+| **[wiremd](https://github.com/akonan/wiremd)** | [![GitHub stars](https://img.shields.io/github/stars/akonan/wiremd?style=social&color=white)](https://github.com/akonan/wiremd/stargazers) | MIT | Text-to-wireframe tool that compiles structured Markdown into Balsamiq-style sketch mockups, Figma frames, React, and HTML. |
+| **[Wireloom](https://github.com/StardockCorp/Wireloom)** | [![GitHub stars](https://img.shields.io/github/stars/StardockCorp/Wireloom?style=social&color=white)](https://github.com/StardockCorp/Wireloom/stargazers) | MIT | Indentation-based declarative syntax that compiles directly into inline SVG wireframes in Markdown, optimized for AI coding agents and PR docs. |
+| **[Telva](https://github.com/vmaspad/telva)** | [![GitHub stars](https://img.shields.io/github/stars/vmaspad/telva?style=social&color=white)](https://github.com/vmaspad/telva/stargazers) | MIT | Embeddable React infinite design canvas component with live React components as first-class canvas shapes and multiplayer sync. |
+
+---
+
+## Feature Comparison Matrix
+
+| Tool | Style / Fidelity | Self-Hostable | Real-Time Collaboration | Code Export | Best Use Case |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Figma** | High / Multi-fidelity | No (SaaS) | Yes | HTML/CSS, React (Dev Mode) | Unified product design & design system libraries |
+| **Miro** | Low / Medium | No (SaaS) | Yes | No (Image/PDF) | Team brainstorming & agile flow mapping |
+| **Balsamiq** | Low (Hand-drawn) | Cloud / Atlassian Server | Yes | No (Images/Interactive PDF) | Distraction-free user layout & structural ideation |
+| **Penpot** | High / Low (Vector) | Yes (Docker) | Yes | Native CSS Grid, Flexbox, SVG | Open-source enterprise Figma alternative |
+| **wiremd** | Low / Sketch theme | Yes (Local/CLI) | No (Git-based) | Figma JSON, HTML, React | Developers creating mockups from Markdown text |
+| **Wireflow** | Low (User flows) | Yes | Yes (Meteor/Node) | PNG / Flowcharts | Quick user flow diagrams & screen pathways |
+| **Axure RP** | High (Interactive) | Enterprise On-Prem | Yes | HTML/JS Prototyping specs | Complex logic, forms & dynamic enterprise testing |
+
+---
+
+## How to Choose
+
+1. **For Team Brainstorming & Concept Mapping**: Pick **Miro** or **Whimsical** for rapid canvas sketching with zero learning curve.
+2. **For Strict Low-Fidelity & User Flow Alignment**: Choose **Balsamiq** (commercial) or **wiremd** / **Wireflow** (open-source) to avoid debating visual details early.
+3. **For Production UI Design & Full Handoff**: Use **Figma** (commercial standard) or **Penpot** (best-in-class open-source, self-hosted).
+4. **For Markdown & AI Agent Workflows**: Integrate **Wireloom** or **wiremd** to embed lightweight UI layouts directly in pull requests, documentation, and agent prompts.
+5. **For React/Vue Scaffold Prototyping**: Try **React-Proto**, **OverVue**, or **Telva**.
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Add your tool to the corresponding table in `README.md` keeping alphabetical or star-count descending order.
+3. Ensure starting tier pricing, free tier limits, and GitHub URLs are exact.
+4. Submit a Pull Request with a brief explanation of why the software should be included.
+
+---
+
+## Disclaimer & License
+
+- This list is community-curated for informational purposes. Product logos, trademarks, and company valuations belong to their respective copyright holders.
+- Distributed under the [MIT License](LICENSE).
