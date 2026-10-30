@@ -1,32 +1,45 @@
-# Awesome Wireframing & Mockup Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Wireframing &amp; Mockup Software" width="100%" />
+</p>
 
-> A curated list of top **wireframing tools**, **UI mockup software**, **prototyping platforms**, and **open-source design systems**.
+# Awesome Wireframing & Mockup Software 🎨✨
 
-Find the best digital whiteboard, wireframing software, and self-hosted UI mockup solutions to convert product requirements, user flows, and UX architecture into interactive prototypes.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
+> 💡 A curated directory of top **wireframing tools**, **UI mockup software**, **interactive prototyping platforms**, and **open-source design engines**.
 
-## Sector Overview & Market Dynamics
-
-The global wireframing, diagramming, and UI prototyping software market is estimated at **$1.8B – $2.4B** (part of the broader $15B+ collaborative work management and design software industry) with an expected 14–17% CAGR. The sector is **moderately concentrated at the high-fidelity collaboration layer** (where Figma commands near winner-take-all enterprise dominance alongside Miro and Lucidchart in whiteboarding), yet remains **highly fragmented across low-fidelity wireframing, specialized developer tools, and niche sketch workflows**.
-
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Feature Comparison Matrix](#feature-comparison-matrix)
-- [How to Choose](#how-to-choose)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & License](#disclaimer--license)
+Find the ideal digital whiteboard 📋, rapid wireframing suite 📐, and self-hosted UI mockup solutions 🛠️ to convert user requirements, UX flows, and interface architecture into functional prototypes.
 
 ---
 
-## SaaS & Hosted Platforms
+## 📊 Sector Overview & Market Dynamics
 
-| Product | Scale (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Key Capabilities & Target Audience |
+The global wireframing, diagramming, and UI prototyping software market is estimated at **$1.8B – $2.4B** (part of the broader $15B+ collaborative work management and design software industry) with an expected 14–17% CAGR. The sector is **moderately concentrated at the high-fidelity collaboration layer** (where Figma commands near winner-take-all enterprise dominance alongside Miro and Lucidchart in whiteboard diagramming), yet remains **highly fragmented across low-fidelity wireframing, specialized developer tools, and niche sketch workflows**.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [⚖️ Feature Comparison Matrix](#️-feature-comparison-matrix)
+- [🧭 How to Choose](#-how-to-choose)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
+- [📜 Disclaimer & License](#-disclaimer--license)
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+| Product | Scale (Valuation / Revenue) 📈 | Starting Tier Pricing 💳 | Free Tier / Trial Limits 🎁 | Key Capabilities & Target Audience 🎯 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Figma](https://www.figma.com/)** | ~$12.5B valuation (~$700M+ ARR) | $12/editor/month (Professional plan, billed annually) | Free forever (Starter plan): Up to 3 collaborative Figma and FigJam files, unlimited personal files, unlimited collaborators | Industry standard for collaborative interface design, interactive prototyping, design systems, and developer handoff. |
 | **[Miro](https://miro.com/)** | ~$17.5B valuation (~$500M+ ARR) | $8/member/month (Starter plan, billed annually) | Free forever: 3 editable boards, core integrations, pre-built templates, wireframe shape library, unlimited viewers | Infinite-canvas digital whiteboard with built-in wireframing stencil packs, user story mapping, and ideation tools. |
@@ -41,11 +54,11 @@ The global wireframing, diagramming, and UI prototyping software market is estim
 
 ---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
 Curated open-source wireframing applications, visual canvas frameworks, and declarative mockup utilities sorted by community GitHub stars:
 
-| Repository & Name | Stars | License | Architecture & Focus |
+| Repository & Name | Stars ⭐ | License 📄 | Architecture & Focus 🛠️ |
 | :--- | :--- | :--- | :--- |
 | **[Penpot](https://github.com/penpot/penpot)** | [![GitHub stars](https://img.shields.io/github/stars/penpot/penpot?style=social&color=white)](https://github.com/penpot/penpot/stargazers) | MPL-2.0 | Complete open-source design and wireframing platform built on open web standards (SVG-native, CSS Grid/Flexbox layouts, self-hostable Docker). |
 | **[Pencil Project](https://github.com/evolus/pencil)** | [![GitHub stars](https://img.shields.io/github/stars/evolus/pencil?style=social&color=white)](https://github.com/evolus/pencil/stargazers) | GPL-2.0 | Veteran multi-platform desktop GUI prototyping and diagramming software (*Note: Discontinued/archived, kept for legacy desktop workflows*). |
@@ -60,9 +73,9 @@ Curated open-source wireframing applications, visual canvas frameworks, and decl
 
 ---
 
-## Feature Comparison Matrix
+## ⚖️ Feature Comparison Matrix
 
-| Tool | Style / Fidelity | Self-Hostable | Real-Time Collaboration | Code Export | Best Use Case |
+| Tool | Style / Fidelity 🎨 | Self-Hostable 🖥️ | Real-Time Collaboration 👥 | Code Export 💻 | Best Use Case 🚀 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Figma** | High / Multi-fidelity | No (SaaS) | Yes | HTML/CSS, React (Dev Mode) | Unified product design & design system libraries |
 | **Miro** | Low / Medium | No (SaaS) | Yes | No (Image/PDF) | Team brainstorming & agile flow mapping |
@@ -74,7 +87,7 @@ Curated open-source wireframing applications, visual canvas frameworks, and decl
 
 ---
 
-## How to Choose
+## 🧭 How to Choose
 
 1. **For Team Brainstorming & Concept Mapping**: Pick **Miro** or **Whimsical** for rapid canvas sketching with zero learning curve.
 2. **For Strict Low-Fidelity & User Flow Alignment**: Choose **Balsamiq** (commercial) or **wiremd** / **Wireflow** (open-source) to avoid debating visual details early.
@@ -84,16 +97,31 @@ Curated open-source wireframing applications, visual canvas frameworks, and decl
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork this repository.
+1. Fork this repository 🍴.
 2. Add your tool to the corresponding table in `README.md` keeping alphabetical or star-count descending order.
 3. Ensure starting tier pricing, free tier limits, and GitHub URLs are exact.
 4. Submit a Pull Request with a brief explanation of why the software should be included.
 
 ---
 
-## Disclaimer & License
+## 💖 Support
+
+Thank you for exploring this collection! If you find this curated list helpful for your design and prototyping workflows:
+
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** and share it with teammates, designers, and developers.
+- ☕ If you'd like to support ongoing curation and maintenance, consider buying a coffee via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Wireframing-Mockup-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Wireframing-Mockup-Software&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer & License
 
 - This list is community-curated for informational purposes. Product logos, trademarks, and company valuations belong to their respective copyright holders.
 - Distributed under the [MIT License](LICENSE).

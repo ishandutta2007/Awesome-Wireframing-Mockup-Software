@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Wireframe Grid Pattern -->
+    <pattern id="wireGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#374151" stroke-width="0.75" stroke-opacity="0.3" />
+      <circle cx="0" cy="0" r="1.5" fill="#4f46e5" fill-opacity="0.3" />
+    </pattern>
+
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #cbd5e1;
+    }
+    .sketch-line {
+      stroke-dasharray: 6 4;
+      animation: dashMove 15s linear infinite;
+    }
+    @keyframes dashMove {
+      to {
+        stroke-dashoffset: -100;
+      }
+    }
+    .pulse-glow {
+      animation: pulseGlow 4s ease-in-out infinite alternate;
+    }
+    @keyframes pulseGlow {
+      0% { opacity: 0.25; transform: scale(0.98); }
+      100% { opacity: 0.55; transform: scale(1.02); }
+    }
+    .float-card-1 {
+      animation: float1 6s ease-in-out infinite alternate;
+    }
+    .float-card-2 {
+      animation: float2 7s ease-in-out infinite alternate;
+    }
+    @keyframes float1 {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-10px); }
+    }
+    @keyframes float2 {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(8px); }
+    }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" fill="url(#wireGrid)" />
+
+  <!-- Ambient Light Orbs (Background layer) -->
+  <circle cx="200" cy="80" r="140" fill="#4f46e5" class="pulse-glow" filter="blur(60px)" />
+  <circle cx="1020" cy="320" r="160" fill="#ec4899" class="pulse-glow" filter="blur(70px)" />
+
+  <!-- Dynamic Animated Mockup Window Elements in Background -->
+  <g class="float-card-1" opacity="0.45" transform="translate(860, 50)">
+    <!-- Wireframe Browser Window -->
+    <rect width="280" height="180" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5" filter="url(#subtleShadow)" />
+    <circle cx="20" cy="18" r="4" fill="#ef4444" />
+    <circle cx="34" cy="18" r="4" fill="#eab308" />
+    <circle cx="48" cy="18" r="4" fill="#22c55e" />
+    <rect x="70" y="11" width="150" height="14" rx="4" fill="#334155" />
+    <!-- Skeleton layout inside window -->
+    <rect x="20" y="45" width="70" height="55" rx="6" fill="#334155" />
+    <rect x="102" y="45" width="155" height="12" rx="3" fill="#475569" />
+    <rect x="102" y="65" width="120" height="10" rx="3" fill="#334155" />
+    <rect x="102" y="85" width="140" height="10" rx="3" fill="#334155" />
+    <!-- Animated connecting connector wire -->
+    <path d="M 20 125 L 260 125" stroke="#6366f1" stroke-width="2" class="sketch-line" />
+    <rect x="20" y="140" width="115" height="22" rx="4" fill="#4f46e5" fill-opacity="0.6" />
+    <rect x="145" y="140" width="115" height="22" rx="4" fill="#334155" />
+  </g>
+
+  <g class="float-card-2" opacity="0.4" transform="translate(60, 240)">
+    <!-- Mobile Wireframe Shell -->
+    <rect width="130" height="150" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1.5" filter="url(#subtleShadow)" />
+    <rect x="45" y="8" width="40" height="5" rx="2" fill="#334155" />
+    <rect x="15" y="24" width="100" height="35" rx="6" fill="#4338ca" fill-opacity="0.5" />
+    <circle cx="35" cy="85" r="14" fill="#334155" />
+    <circle cx="70" cy="85" r="14" fill="#334155" />
+    <circle cx="105" cy="85" r="14" fill="#334155" />
+    <rect x="15" y="112" width="100" height="24" rx="5" fill="#334155" />
+  </g>
+
+  <!-- High-Contrast Foreground Content (Title, Subtitle & Interactive Badge Chips) -->
+  <g transform="translate(0, 0)">
+    <!-- Category Pill -->
+    <g transform="translate(470, 75)">
+      <rect width="260" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+      <circle cx="22" cy="17" r="5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="36" y="22" class="pill-text" fill="#a5b4fc">CURATED AWESOME ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="165" text-anchor="middle" class="title-text">
+      Awesome Wireframing &amp; Mockup Software
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="212" text-anchor="middle" class="subtitle-text">
+      Curated low-fidelity sketchers, collaborative UI platforms &amp; self-hosted mockup tools
+    </text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(230, 260)">
+      <!-- Tag 1: Low-Fidelity Wireframes -->
+      <g transform="translate(0, 0)">
+        <rect width="160" height="38" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" />
+        <text x="80" y="24" text-anchor="middle" class="pill-text">📐 Wireframing</text>
+      </g>
+      <!-- Tag 2: UI/UX Prototyping -->
+      <g transform="translate(180, 0)">
+        <rect width="170" height="38" rx="8" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.2" />
+        <text x="85" y="24" text-anchor="middle" class="pill-text">🎨 UI &amp; Mockups</text>
+      </g>
+      <!-- Tag 3: Rapid Prototyping -->
+      <g transform="translate(370, 0)">
+        <rect width="170" height="38" rx="8" fill="#1e293b" stroke="#ec4899" stroke-width="1.2" />
+        <text x="85" y="24" text-anchor="middle" class="pill-text">⚡ Rapid Prototyping</text>
+      </g>
+      <!-- Tag 4: Open Source & Self-Hosted -->
+      <g transform="translate(560, 0)">
+        <rect width="180" height="38" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.2" />
+        <text x="90" y="24" text-anchor="middle" class="pill-text">🔓 Open-Source Tools</text>
+      </g>
+    </g>
+
+    <!-- Bottom Gradient Accent Bar -->
+    <rect x="0" y="414" width="1200" height="6" fill="url(#primaryGlow)" />
+  </g>
+</svg>
